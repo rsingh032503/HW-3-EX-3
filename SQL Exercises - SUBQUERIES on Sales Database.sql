@@ -112,7 +112,7 @@ SELECT *
                          WHERE name = 'Paul Adam');
 
 
-/* 2. Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands: *.'
+/* 2. Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands: */
 
 SELECT *
   FROM orders

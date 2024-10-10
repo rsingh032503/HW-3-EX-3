@@ -112,7 +112,7 @@ SELECT s.name,
   INNER JOIN customer c
     ON s.city = c.city;
 
-
+/* This returns a list of salesmen and customers who live in the same city. */
 
 /* 2. Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands: */
 
@@ -125,3 +125,4 @@ SELECT c.cust_name AS "Customer Name",
     ON c.salesman_id = s.salesman_id
   WHERE s.commission > 0.12;
 
+/* This returns a list of customers and their salesmen who have a commission greater than 0.12. */
